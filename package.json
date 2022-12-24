@@ -1,0 +1,28 @@
+{
+  "name": "todos-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arockiajeyson/todos-backend.git"
+  },
+  "author": "jeyson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arockiajeyson/todos-backend/issues"
+  },
+  "homepage": "https://github.com/Arockiajeyson/todos-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.1",
+    "nodemon": "^2.0.20"
+  }
+}
